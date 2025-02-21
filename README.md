@@ -34,3 +34,69 @@ Experience the application live at: [https://yaxh64.github.io/Weather-App/](http
    ```bash
    git clone https://github.com/yaxh64/Weather-App.git
    cd Weather-App
+Obtain an API Key:
+
+Sign up at OpenWeatherMap to get a free API key.
+Configure the API Key:
+
+In the project directory, locate the script.js file.
+Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key:
+javascript
+Copy
+Edit
+const apiKey = 'YOUR_API_KEY';
+Run the Application:
+
+Open index.html in your preferred web browser.
+Usage
+Search for a City: Type the city name into the search bar and press Enter or click the search button.
+View Weather Details: The app will display the current temperature, humidity, wind speed, and a brief weather description.
+Dynamic Backgrounds: Experience background changes that reflect the current weather conditions of the searched city.
+Project Structure
+bash
+Copy
+Edit
+Weather-App/
+├── index.html      # Main HTML file
+├── style.css       # CSS for styling
+├── script.js       # JavaScript for functionality
+└── README.md       # Project documentation
+Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Note: Ensure you replace 'YOUR_API_KEY' in the script.js file with your actual OpenWeatherMap API key to fetch real-time weather data.
+
+pgsql
+Copy
+Edit
+
+
+**Steps to Add or Update the `README.md` File:**
+
+1. **Creating or Editing the `README.md` File:**
+   - In your repository on GitHub, click on "Add file" and select "Create new file."
+   - Name the file `README.md`.
+   - Paste the Markdown content (as shown above) into the file.
+
+2. **Committing the Changes:**
+   - After adding your content, scroll down to the "Commit new file" section.
+   - Add a commit message (e.g., "Add project description to README") and choose the appropriate commit option.
+   - Click "Commit new file" to save your changes.
+
+Once committed, GitHub will automatically render the Markdown in your `README.md` file and display it on the repository's main page. This approach allows you to present a well-formatted and informative description to visitors.
+
+For more information on writing and formatting Markdown on GitHub, refer to GitHub's official documentation: [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+By utilizing the `README.md` file for detailed information and the repository description for a concise summary, you can effectively communicate your project's purpose and features to your audience.
+::contentReference[oaicite:0]{index=0}
+ 
+
+
+
+
+
+
+
